@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C981B441E4E18C40060A74D /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0C981B431E4E18C40060A74D /* Podfile */; };
 		448208061E4C0138006A6ABD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448208051E4C0138006A6ABD /* AppDelegate.swift */; };
 		448208081E4C0138006A6ABD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448208071E4C0138006A6ABD /* ViewController.swift */; };
 		4482080D1E4C0138006A6ABD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4482080C1E4C0138006A6ABD /* Assets.xcassets */; };
@@ -14,9 +15,14 @@
 		448208191E4C024A006A6ABD /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448208171E4C0249006A6ABD /* MainViewController.swift */; };
 		4482081A1E4C024A006A6ABD /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 448208181E4C0249006A6ABD /* MainViewController.xib */; };
 		44E65EA31E4C277B0091D343 /* HVD_Comic_Serif_Pro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 44E65EA21E4C277B0091D343 /* HVD_Comic_Serif_Pro.otf */; };
+		FFB65A8AFE7EDE898A8E5819 /* Pods_CognitiveCtrainGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0CF9C70FF83DF1A9C90B9A /* Pods_CognitiveCtrainGame.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C981B431E4E18C40060A74D /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		0C981B481E4E24D30060A74D /* CognitiveCtrainGame-Briding-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CognitiveCtrainGame-Briding-Header.h"; sourceTree = SOURCE_ROOT; };
+		0F0CF9C70FF83DF1A9C90B9A /* Pods_CognitiveCtrainGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CognitiveCtrainGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D318950995CCE41425CD836 /* Pods-CognitiveCtrainGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitiveCtrainGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-CognitiveCtrainGame/Pods-CognitiveCtrainGame.release.xcconfig"; sourceTree = "<group>"; };
 		448208021E4C0137006A6ABD /* CognitiveCtrainGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CognitiveCtrainGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		448208051E4C0138006A6ABD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		448208071E4C0138006A6ABD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -26,6 +32,7 @@
 		448208171E4C0249006A6ABD /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		448208181E4C0249006A6ABD /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		44E65EA21E4C277B0091D343 /* HVD_Comic_Serif_Pro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HVD_Comic_Serif_Pro.otf; sourceTree = "<group>"; };
+		C4D7A7B75FC9923CD9E42E80 /* Pods-CognitiveCtrainGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CognitiveCtrainGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CognitiveCtrainGame/Pods-CognitiveCtrainGame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +40,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFB65A8AFE7EDE898A8E5819 /* Pods_CognitiveCtrainGame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A33F6B93CB80AD7027CC968 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0CF9C70FF83DF1A9C90B9A /* Pods_CognitiveCtrainGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32DFFEB443AEE3BEA514CBAE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4D7A7B75FC9923CD9E42E80 /* Pods-CognitiveCtrainGame.debug.xcconfig */,
+				3D318950995CCE41425CD836 /* Pods-CognitiveCtrainGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		448207F91E4C0137006A6ABD = {
 			isa = PBXGroup;
 			children = (
 				448208041E4C0137006A6ABD /* CognitiveCtrainGame */,
 				448208031E4C0137006A6ABD /* Products */,
+				32DFFEB443AEE3BEA514CBAE /* Pods */,
+				0A33F6B93CB80AD7027CC968 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +85,9 @@
 		448208041E4C0137006A6ABD /* CognitiveCtrainGame */ = {
 			isa = PBXGroup;
 			children = (
+				0C981B431E4E18C40060A74D /* Podfile */,
 				448208051E4C0138006A6ABD /* AppDelegate.swift */,
+				0C981B481E4E24D30060A74D /* CognitiveCtrainGame-Briding-Header.h */,
 				448208071E4C0138006A6ABD /* ViewController.swift */,
 				4482080C1E4C0138006A6ABD /* Assets.xcassets */,
 				4482080E1E4C0138006A6ABD /* LaunchScreen.storyboard */,
@@ -77,9 +106,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 448208141E4C0138006A6ABD /* Build configuration list for PBXNativeTarget "CognitiveCtrainGame" */;
 			buildPhases = (
+				C79A45EC39471D22C41A863B /* [CP] Check Pods Manifest.lock */,
 				448207FE1E4C0137006A6ABD /* Sources */,
 				448207FF1E4C0137006A6ABD /* Frameworks */,
 				448208001E4C0137006A6ABD /* Resources */,
+				1315EA2A6195CD92B255B2C4 /* [CP] Embed Pods Frameworks */,
+				8959CD7FD0DD76A082B3781B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +162,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C981B441E4E18C40060A74D /* Podfile in Resources */,
 				448208101E4C0138006A6ABD /* LaunchScreen.storyboard in Resources */,
 				4482081A1E4C024A006A6ABD /* MainViewController.xib in Resources */,
 				44E65EA31E4C277B0091D343 /* HVD_Comic_Serif_Pro.otf in Resources */,
@@ -138,6 +171,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1315EA2A6195CD92B255B2C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CognitiveCtrainGame/Pods-CognitiveCtrainGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8959CD7FD0DD76A082B3781B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CognitiveCtrainGame/Pods-CognitiveCtrainGame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C79A45EC39471D22C41A863B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		448207FE1E4C0137006A6ABD /* Sources */ = {
@@ -259,6 +340,7 @@
 		};
 		448208151E4C0138006A6ABD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D7A7B75FC9923CD9E42E80 /* Pods-CognitiveCtrainGame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EYADQULRBU;
@@ -266,12 +348,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kshrd.com.CognitiveCtrainGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CognitiveCtrainGame-Briding-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		448208161E4C0138006A6ABD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D318950995CCE41425CD836 /* Pods-CognitiveCtrainGame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = EYADQULRBU;
@@ -279,6 +363,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kshrd.com.CognitiveCtrainGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CognitiveCtrainGame-Briding-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
